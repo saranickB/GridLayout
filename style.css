@@ -1,0 +1,202 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px 3fr;
+    grid-template-rows: 150px 900px;
+}
+
+.sidebar {
+    display: grid;
+    background-color: rgb(3, 65, 104);
+    color: white;
+    grid-row: 1/3;
+    grid-template-rows: 100px 300px 200px;
+}
+
+
+.section1 ul,
+.section2 ul {
+    display: grid;
+    gap: 10px;
+}
+
+.icons {
+    filter: invert(1);
+    height: 30px;
+}
+
+.item,
+h2 {
+    margin: 0 0 0 10px;
+}
+
+.dashboard {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    margin: 20px;
+}
+
+.section1 li,
+.section2 li {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    list-style: none;
+    padding: 0px;
+}
+
+.header {
+    display: grid;
+    margin-left: 10px;
+    grid-template-rows: 50px 50px;
+    padding-top: 20px;
+}
+
+.first {
+    display: grid;
+    grid-auto-flow: column;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.part1 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+.part2 {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.second {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.sec1>h2 {
+    color: rgb(1, 56, 111);
+}
+
+.sec1 {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.sec2 {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+}
+
+#search {
+    width: 50em;
+    border-radius: 6px;
+    background-color: rgb(186, 219, 239);
+}
+
+button {
+    background-color: rgb(3, 65, 104);
+    border-radius: 8px;
+    color: white;
+    width: 70px;
+}
+
+.content {
+    display: grid;
+    background-color: rgb(186, 219, 239);
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project {
+    display: grid;
+    grid-row: 1/3;
+    padding-left: 70px;
+    grid-template-rows: 80px 240px;
+}
+
+.project > p,
+.announcement >p,
+.trending >p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cards>* {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #034168;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    padding: 10px;
+}
+
+.acard {
+    font-size: 10px;
+}
+
+.cardIcons {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.announcement,
+.trending {
+    padding-left: 30px;
+}
+
+.tCard {
+    height: 220px;
+    width: 250px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.acc {
+    display: grid;
+    padding: 20px;
+    align-items: center;
+    grid-template-columns: 40px 250px;
+}
+
+
+.details > p {
+    margin: 0;
+}
+
+.name {
+    font-size: 15px;
+}
+.TProject {
+    font-size: 10px;
+}
